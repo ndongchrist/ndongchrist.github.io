@@ -12,6 +12,7 @@ drf-yasg = "*"
 pillow = "*"
 djangorestframework-simplejwt = "*"
 djangorestframework = "*"
+django-medusa = "*"
 
 [dev-packages]
 
