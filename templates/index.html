@@ -20,7 +20,7 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">{{ home.name }}</a>
+                    <a href="#" class="nav__logo"><b>{{ home.name }}</b></a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -45,13 +45,13 @@
             <!--===== HOME =====-->
             <section class="home" id="home">
                 <div class="home__container bd-grid">
-                    <h1 class="home__title"><span>{{ home.greetings1 }}</span><br>{{ home.greetings2 }}</h1>
+                    <h1 class="home__title"><span class="text-warning">{{ home.greetings1 }}</span><br>{{ home.greetings2 }}</h1>
 
                     <div class="home__scroll">
                         <a href="#about" class="home__scroll-link"><i class='bx bx-up-arrow-alt' ></i>Scroll down</a>
                     </div>
-
-                    <img src="{{ home.picture.url }}" alt="" class="home__img">
+                       
+                    <img src="{{ home.picture.url }}" alt="" class="home__img rounded-circle border border-warning">
                 </div>
             </section>
             
